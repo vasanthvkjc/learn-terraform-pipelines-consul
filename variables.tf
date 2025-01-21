@@ -13,6 +13,7 @@ variable "namespace" {
   description = "Namespace to deploy the Consul Helm chart"
 }
 
+
 variable "cluster_workspace" {
   type        = string
   default     = "learn-terraform-pipelines-k8s"
