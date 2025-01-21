@@ -15,11 +15,13 @@ variable "namespace" {
 
 variable "cluster_workspace" {
   type        = string
+  default     = "learn-terraform-pipelines-k8s"
   description = "Workspace that created the Kubernetes cluster"
 }
 
 variable "organization" {
   type        = string
+  default     = "vasanthvkjc"
   description = "Organization of workspace that created the Kubernetes cluster"
 }
 
